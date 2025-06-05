@@ -6,8 +6,7 @@ public partial class TravelAgencyContext : DbContext
         {
         }
 
-        public TravelAgencyContext(DbContextOptions<TravelAgencyContext> options)
-            : base(options)
+        public TravelAgencyContext(DbContextOptions<TravelAgencyContext> options) : base(options)
         {
         }
 
